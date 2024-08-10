@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#F7EFE5;
+}
+header{
+  background-color: #FECDA6;
+  width: 100%;
+  position: fixed;
+  top:0;
+}
+
+h1{
+  text-align: center;
+  font-weight: 500;
+}
+
+.title{
+  margin-top:60px;
+}
+
+.title2{
+  margin-top:30px;
+}
+
+.sub-title{
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#header-img{
+  margin-left: 20px;
+  width:50px;
+  height: 50px;
+}
+
+#nav-bar{
+  display: inline;
+  float: right;
+  margin-top:10px;
+}
+
+h2{
+  text-align: center;
+  margin-top:10px;
+}
+
+.nav-link {
+  text-decoration:none;
+  color:black;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.nav-link:hover {
+  color:red;
+  transition: 1s linear ease-in-out;
+}
+#video{
+  width:500px;
+}
+
+.videoclass{
+  display:flex;
+  justify-content: center;
+  margin-top:50px;
+}
+
+.formsection{
+  display:flex;
+  justify-content:center;
+}
+
+form{
+  margin:10px;
+  margin-top:25px;
+}
+
+label,input{
+  margin:5px;
+  font-size: 18px;
+}
+
+fieldset{
+  padding:15px;
+}
+.container{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.child{
+  width: 250px;
+  height: 200px;
+  margin: 15px 5px;
+}
+.child img{
+  margin-left: 20px;
+  width:90%;
+  height: 100%;
+  
+}
+#submit{
+  font-size:18px;
+  padding:3px;
+}
+
+#footer{
+  background-color: #FECDA6;
+  text-align:center;
+  font-style: italic;
+  margin-top:15px;
+  padding: 20px;
+  font-size:20px;
+}
+@media screen and (max-width:500px){
+  #video{
+    width: 100%;
+  }
+
+  .title{
+  margin-top:120px;
+  }
+
+}
